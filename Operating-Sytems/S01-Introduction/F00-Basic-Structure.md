@@ -7,7 +7,7 @@ This explanation is very basic and misses many valuable details. Here we'll revi
 The following image shows the basic computer structure:
 
 <div style="text-align: left;">
-    <img src="../../extras/basic-structure.jpg" alt="Basic computer structure" style="width: 60%; height: auto;"> 
+    <img src="../../extras/basic-structure.jpg" alt="Basic computer structure" style="width: 30%; height: auto;"> 
 </div>
 
 As mentioned, the computer consists of **hardware** and **software**.

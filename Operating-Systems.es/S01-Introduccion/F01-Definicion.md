@@ -14,11 +14,11 @@ El entorno de trabajo por defecto de una computadora es primitivo y muy poco agr
 
 Dicho entorno primitivo era ineficiente y por eso se decidió hacerlo invisible por medio de un software. Ese software que oculta la verdad acerca del hardware es el sistema operativo. Entonces, **la primera función** es brindarle al usuario un nivel de abstracción para hacer su entorno más cómodo.
 
-Esta función da un concepto del sistema operativo que entra dentro de una visión de **abajo hacia arriba (top-down)**.
+Esta función da un concepto del sistema operativo que entra dentro de una visión de **abajo hacia arriba (bottom-up)**.
 
 ## Función 2 - El sistema operativo como un controlador de recursos
 
-Una visión alternativa, de **arriba hacia abajo (bottom-up)**, define que el sistema operativo tiene la función de controlar los componentes físicos. Proporciona asignaciones ordenadas y controladas del hardware para los distintos softwares.
+Una visión alternativa, de **arriba hacia abajo (top-down)**, define que el sistema operativo tiene la función de controlar los componentes físicos. Proporciona asignaciones ordenadas y controladas del hardware para los distintos softwares.
 
 El sistema operativo es capaz de poner orden en un potencial caos. Un caos podría representarse como:
 - Falta de recursos

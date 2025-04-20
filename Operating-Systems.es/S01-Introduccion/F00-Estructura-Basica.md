@@ -7,7 +7,7 @@ Esta explicación es muy básica y se pierden muchos detalles valiosos. Aquí se
 En la siguiente imagen se muestra la estructura básica de la computadora:
 
 <div style="text-align: left;">
-    <img src="../../extras/basic-structure.jpg" alt="This is an image" style="width: 60%; height: auto;"> 
+    <img src="../../extras/basic-structure.jpg" alt="This is an image" style="width: 30%; height: auto;"> 
 </div>
 
 Dijimos que la computadora está compuesta por **hardware** y **software**.
