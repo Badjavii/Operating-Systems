@@ -16,7 +16,7 @@ A few years ago, it was so difficult to develop software because it was needed t
 
 ## Getting Started
 
-1. **Clone the repository:** To get a local copy of these exercises, clone this repository to your local machine using the following command in your terminal:
+**Clone the repository:** To get a local copy of these documentation, clone this repository to your local machine using the following command in your terminal:
 ```bash
 git clone https://github.com/Badjavii/Operating-Systems.git
 ```
