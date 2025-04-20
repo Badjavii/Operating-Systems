@@ -6,7 +6,9 @@ Esta explicación es muy básica y se pierden muchos detalles valiosos. Aquí se
 
 En la siguiente imagen se muestra la estructura básica de la computadora:
 
-![Estructura básica de una computadora](../../extras/basic-structure.jpg)
+<div style="text-align: left;">
+    <img src="../../extras/basic-structure.jpg" alt="This is an image" style="width: 60%; height: auto;"> 
+</div>
 
 Dijimos que la computadora está compuesta por **hardware** y **software**.
 
@@ -29,7 +31,7 @@ En el **hardware** tenemos las siguientes capas:
 
 ## Software
 
-Recordemos que en el [review del README](../../README.md) mencionamos que el software se divide en dos: **programas de sistema** y **programas de aplicación**.
+Recordemos que en el [preview del README](../../README.md) mencionamos que el software se divide en dos: **programas de sistema** y **programas de aplicación**.
 
 ### Programas de sistema
 
@@ -59,3 +61,28 @@ La mayoría de las computadoras tienen dos modos de ejecución: el **modo kernel
 - El resto del software (aplicaciones) se ejecuta en **modo usuario**.
 - En este modo, solo un **subconjunto de instrucciones** está permitido.
     - Por ejemplo: Un usuario puede crear su propio compilador, pero **no** puede escribir su propio controlador de interrupciones de disco, ya que está protegido por el modo kernel.
+
+  
+## Jerárquia dentro de la estructura 
+
+```plaintext
+Usuario
+│
+└── Programas de Aplicación (Modo Usuario)
+    │ Ej: Chrome, Word, Spotify
+    │
+    └── Otros Programas de Sistema (Modo Usuario)
+        │ Ej: Compiladores, Shell, Editores
+        │
+        └── Sistema Operativo (Modo Kernel)
+            │ Kernel, Drivers, Syscalls
+            │
+            └── Lenguaje de Máquina
+                │ ADD, MOV, JMP (interpretadas)
+                │
+                └── Microprogramación
+                    │ Microcódigo (CPU/BIOS)
+                    │
+                    └── Hardware
+                        │ CPU, RAM, Disco
+```
