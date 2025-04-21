@@ -13,7 +13,7 @@ Recordemos que antes del siglo XX tuvimos ciertos antecedentes de lo que luego s
 
 Cabe destacar que ninguna de estas maquinas eran electronicas, por lo que, obviamente **no contaban con un sistema operativo.**
 
-## Primera generacion (1945-1955): Tubos de vacio 
+## Primera generación (1945-1955): Tubos de vacio 
 
 Las computadoras electronicas nacen. Las mas relevantes fueron la Z1 (Konrad Zuse), la ENIAC (J. Presper y William Mauchley), UNIVAC, la Mark 1 (Howard Aiken), ABC () y la EDVAC (Von Neumann). Todas estas fueron maquinas de calculo que usaban componentes electrónicos que utilizan el vacío para controlar el flujo de electrones (y la corriente electrica). Esos componentes son los tubos de vacio.
 
@@ -21,9 +21,22 @@ En aquella epoca, la operacion de un computador era muy complejo y tardaba demas
 
 A finales de la decada de los 50, se dio la transicion de las conexiones a las tarjetas perforadas.
 
-## Segunda generacion (1955-1965): Transitores y sistemas de procesamiento por lotes
+## Segunda generación (1955-1965): Transitores y sistemas de procesamiento por lotes
 
 Gracias a los transitores, las computadoras se hicieron mas precisas, rapidaz y confiables. Tambien nacieron los primeros lenguajes de programacion y, por primera vez, hubo una separacion entre fabricantes, programadores, operadores y mantenimiento.
 
-Las maquinas eran bastante costosas y eran pocas las organizaciones que podian adquirirlas. Para ejecutar un programa, el programador debia escribirlo en hojas de papel (en FORTRAN o ensamblador) para despues perforar las tarjetas.
+Las maquinas eran bastante costosas y eran pocas las organizaciones que podian adquirirlas. Para ejecutar un programa, el programador debia escribirlo en hojas de papel (en FORTRAN o ensamblador) para despues perforar las tarjetas. Este proceso manual generaba enormes ineficiencias: los operadores perdían hasta el 50% del tiempo caminando entre salas para cargar programas, compiladores y datos en sistemas como el IBM 1401/7094, donde la CPU permanecía ociosa durante estos cambios.
 
+```mermaid
+---
+title: Procesamiento por lotes (IBM 1401 + 7094)
+---
+flowchart TB
+
+    A>Programar Tarjetas perforadas]
+    --> B[IBM 1401: Lectura de tarjetas] 
+    -->|Cinta entrada| C[IBM 7094: Procesamiento CPU Principal]
+    -->|Cinta resultados| D[IBM 1401: Impresión de resultados]
+```
+
+La solución fue el procesamiento por lotes automatizado: los trabajos se recolectaban en cintas magnéticas que luego se procesaban secuencialmente sin intervención humana. El IBM 1401 manejaba la entrada/salida mientras el 7094 hacía los cálculos, aumentando la utilización de CPU del 30% al 85%. Este sistema sentó las bases para los primeros sistemas operativos con monitores residentes que gestionaban la transición automática entre trabajos.
