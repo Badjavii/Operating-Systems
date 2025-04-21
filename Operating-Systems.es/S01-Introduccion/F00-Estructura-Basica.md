@@ -31,7 +31,7 @@ En el **hardware** tenemos las siguientes capas:
 
 ## Software
 
-Recordemos que en el [preview del README](../../README.md) mencionamos que el software se divide en dos: **programas de sistema** y **programas de aplicación**.
+Recordemos que en el [vita previa del README](../../README.es.md) mencionamos que el software se divide en dos: **programas de sistema** y **programas de aplicación**.
 
 ### Programas de sistema
 
